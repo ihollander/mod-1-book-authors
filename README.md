@@ -36,7 +36,7 @@ The information below is what you might expect to see when taking a new code cha
 
 ## Notes
 
-You will be building out an application that can track Authors and Books. For our purposes, assume that all books are written by one-- and only one-- author. Your goal is to build out all of the methods listed below in the deliverables. Do your best to follow Ruby best practices. For example, use higher-level array methods such as map, select, and find when appropriate in place of each. Be sure to consider whether your implementation reflects the principle of Single Source of Truth.
+You will be building out an application that can track Authors and Books. For our purposes, assume that all books are written by one-- and only one-- author. Your goal is to build out all of the methods listed below in the deliverables. Do your best to follow Ruby best practices. For example, use higher-level array methods such as map, select, and find when appropriate in place of each. 
 
 We've provided you with a console that you can use to test your code. To enter a console session, run `ruby console.rb`. You'll be able to test out the methods that you write here.
 

@@ -2,21 +2,18 @@ require 'pry'
 require_relative './book'
 require_relative './author'
 
-a1 = Author.new("author1")
-a2 = Author.new("author2")
-a3 = Author.new("author3")
+valentine = Author.new("Valentine")
+saima = Author.new("Saima")
+mohammed = Author.new("Mohammed")
 
-a1.write_book("book1", 5000)
-a1.write_book("book2", 6000)
-a1.write_book("book3", 7000)
+happy_book = Book.new("yay book!", 1, valentine)
+wow_book = Book.new("wow book", 2, valentine)
 
-a2.write_book("book4", 1000)
-a2.write_book("book5", 2000)
-a2.write_book("book6", 3000)
-
-a3.write_book("book7", 1000)
-a3.write_book("book8", 2000)
+# initialize(title, word_count, author)
+my_title_i_dont_know = Book.new("what book", 1, saima)
+workbook = Book.new("workbook", 2, saima)
+that_book = Book.new("that book", 1, saima)
 
 binding.pry
-"bye"
+
 
